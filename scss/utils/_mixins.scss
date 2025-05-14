@@ -31,8 +31,9 @@
   }
 }
 // size
-@mixin size($w, $h: $w) {
+@mixin size($w: 100%, $mw, $h) {
   width: $w;
+  max-width: $mw;
   height: $h;
 }
 // flex
