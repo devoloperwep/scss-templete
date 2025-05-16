@@ -59,3 +59,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+// m-center
+@mixin m-center {
+  margin-left: auto;
+  margin-right: auto;
+}
